@@ -14,7 +14,7 @@ public class ATM {
         AUT();
     }
 
-    public static void AUT() {
+    public static void AUT()  {
 
         AccountAut acc = new AccountAut();
         acc.autentif();
