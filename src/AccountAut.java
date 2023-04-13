@@ -8,8 +8,8 @@ public class AccountAut {
 
     public void autentif() {
 
-        final int userLog = 1;
-        final int userPin = 1;
+        final int userLog = 4521;
+        final int userPin = 1234;
         while (true) {
             int login = 0;
             int pin = 0;

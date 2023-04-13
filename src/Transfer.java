@@ -10,6 +10,10 @@ public class Transfer {
     private static double firstCheck = 0.0;
     private static double secondCheck = 0.0;
 
+    private void choseSumm(){
+
+    }
+
     public double getFirstCheck() {
         return firstCheck;
     }
@@ -74,7 +78,8 @@ public class Transfer {
             }
 
         } // реализуем пополнение счетов
-        public double withdrawal () {
+
+    public double withdrawal () {
 
             System.out.print("С какого счета необходимо снять средства? (1-2): ");
 
@@ -114,7 +119,8 @@ public class Transfer {
                 return withdrawal();
             }
         } //реализуем снятия со счетов
-        public void transferCheck () {
+
+    public void transferCheck () {
             System.out.print("C какого счета вы хотите перевести средства? (1-2): ");
             int chose = in.nextInt();
             if (chose == 1) {
